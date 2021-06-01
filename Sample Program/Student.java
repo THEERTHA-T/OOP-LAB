@@ -44,10 +44,10 @@ class Student
 		System.out.println("\n--STUDENT 3--\n");
 		s3.disp();
 		if(s1.total>s2.total && s1.total>s3.total)
-			System.out.println(s1.name+" have highest score with "+s1.rollno+" mark");
+			System.out.println(s1.name+" have highest score with "+s1.total+" mark");
 		else if(s2.total>s1.total && s2.total>s3.total)
-                        System.out.println(s2.name+" have highest score with "+s2.rollno+" mark");
+                        System.out.println(s2.name+" have highest score with "+s2.total+" mark");
 		else
-			System.out.println(s3.name+" have highest score with "+s3.rollno+" mark");
+			System.out.println(s3.name+" have highest score with "+s3.total+" mark");
 	}
 }
