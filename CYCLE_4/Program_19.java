@@ -1,5 +1,5 @@
 import java.util.*;
-public class s1_Linkedlist
+public class Program_19
 {
     public static void main(String[] args)
     {
